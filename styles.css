@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #F6F6F6;
+}
+
+.navbar {
+	background-color: #2ecc71;
+}
+
+.navbar-brand {
+	color: #FFF;
+}
+
+.btn-dl-cv {
+	background-color: #2ecc71;
+	color: #FFF;
+	border: 3px solid #27ae60;
+	border-radius: 0;
+}
+
+.welcome-section {
+	padding-top: 90px;
+	padding-bottom: 20px;
+	background-color: #27ae60;
+	color: #FFF;
+}
+
+.welcome-image {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.welcome-heading-wrapper {
+	width: 80%;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.welcome-heading {
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.skills-sections {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #E1E1E1;
+}
+
+.skills-sections .card {
+	box-shadow: 10px 10px #D3D3D3;
+}
+
+.skills-sections .card h2 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+footer {
+	padding: 40px 0px;
+}
+
+footer li {
+	font-size: 32px;
+}
+
+.footer-info {
+	line-height: 5px;
+}
+
+.social-container {
+	float: right;
+	padding-top: 25px;
+}
+
+.fa-google-plus-square {
+	color: #A9A9A9;
+}
+
+.fa-facebook-square {
+	color: #A9A9A9;
+}
+
+.fa-instagram {
+	color: #A9A9A9;
+}
+
+.fa-github-square {
+	color: #A9A9A9;
+}

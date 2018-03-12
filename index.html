@@ -1,52 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <title>Task List</title>
+	<title>Jose Mari A. Diago</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Jose Mari A. Diago</a>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<form class="form-inline my-2 my-lg-0 ml-auto">
+      				<button class="btn btn-dl-cv my-2 my-sm-0" type="button">Download CV</button>
+    			</form>
+			</div>
+		</div>
+	</nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <div id="main" class="card">
-                    <div class="card-content">
-                        <span class="card-title">Task List</span>
-                        <div class="row">
-                            <form id="task-form">
-                                <div class="input-field col s12">
-                                    <input type="text" name="task" id="task" value="">
-                                    <label for="task">New Task</label>
-                                </div>
-                                <input type="submit" value="Add Task" class="btn">
-                            </form>
-                        </div>
-                    </div>
-                    <div class="card-action">
-                        <h5 id="task-title">Tasks</h5>
-                        <div class="input-field col s12">
-                            <input type="text" name="filter" id="filter">
-                            <label for="filter">Filter Tasks</label>
-                        </div>
-                        <ul class="collection">
-                            
-                        </ul>
-                        <a href="#" class="clear-tasks btn black">Clear Tasks</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<section class="welcome-section">
+		<div class="container text-center">
+			<img class="welcome-image" src="./images/Josemari.png">
+			<div class="welcome-heading-wrapper">
+				<h1 class="welcome-heading"><span><i class="fas fa-hand-point-right"></i></span> 4y Full Stack Developer | 3y Front-End Developer</h1>
+			</div>
+		</div>
+	</section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="app.js"></script>
+	<section class="skills-sections">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col col-md-4">
+					<div class="card">
+						<div class="card-header">
+							<h2>Skills from Front-End Projects</h2>
+						</div>
+						<div class="card-body">
+							<ul class="list-group">
+								<li class="list-group-item">AngularJS and Angular</li>
+								<li class="list-group-item">Bootstrap Components</li>
+								<li class="list-group-item">CSS3 (SCSS)</li>
+								<li class="list-group-item">Carbon Components</li>
+								<li class="list-group-item">GIT</li>
+								<li class="list-group-item">Gulp</li>
+								<li class="list-group-item">HTML5</li>
+								<li class="list-group-item">Javascript ES5/ES6</li>
+								<li class="list-group-item">JQuery</li>
+								<li class="list-group-item">Typescript</li>
+								<li class="list-group-item">VSCode</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
+				<div class="col col-md-4">
+					<div class="card">
+						<div class="card-header">
+							<h2>Skills from Full Stack Projects</h2>
+						</div>
+						<div class="card-body">
+							<ul class="list-group">
+								<li class="list-group-item">Apache Tomcat Servers</li>
+								<li class="list-group-item">Cloudant (NoSql Document Database)</li>
+								<li class="list-group-item">Eclipse</li>
+								<li class="list-group-item">ExpressJS</li>
+								<li class="list-group-item">JAVA / J2EE</li>
+								<li class="list-group-item">JSP / Servlets</li>
+								<li class="list-group-item">Jasper IReports</li>
+								<li class="list-group-item">Maven and Jetty</li>
+								<li class="list-group-item">NodeJS</li>
+								<li class="list-group-item">Oracle SQL / PL SQL</li>
+								<li class="list-group-item">Oracle Forms and Reports 6i</li>
+								<li class="list-group-item">REST Web Services</li>
+								<li class="list-group-item">Spring / Ibatis</li>
+								<li class="list-group-item">Toad for Oracle</li>
+								<li class="list-group-item">Websphere Servers</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col col-md-4">
+					<div class="card">
+						<div class="card-header">
+							<h2>Skills from Personal Learning</h2>
+						</div>
+						<div class="card-body">
+							<ul class="list-group">
+								<li class="list-group-item">Google Firebase</li>
+								<li class="list-group-item">MongoDB</li>
+								<li class="list-group-item">ReactJS</li>
+								<li class="list-group-item">VueJS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col col-md-6 footer-info">
+						<p><em>Bachelor of Science in Computer Science</em></p>
+						<p>Currently Employed by <a href="http://cpi.com.ph/" target="_blank">Computer Professionals Inc.</a></p>
+						<p><strong>Polytechnic University of the Philippines | Manila, Philippines</strong></p>
+						<p class="muted">&copy; josemaridiago 2018</p>
+					</div>	
+					<div class="col col-md-6">
+						<ul class="list-inline social-container">
+							<li class="list-inline-item"><a href="https://plus.google.com/+JomsDiago" target="_blank"><span><i class="fa fa-google-plus-square"></i></span></a></li>
+							<li class="list-inline-item"><a href="https://www.facebook.com/jomardiago"><span><i class="fa fa-facebook-square"></i></span></a></li>
+							<li class="list-inline-item"><a href="https://www.instagram.com/jomardiago" target="_blank"><span><i class="fa fa-instagram"></i></span></a></li>
+							<li class="list-inline-item"><a href="https://github.com/jomardiago" target="_blank"><span><i class="fa fa-github-square"></i></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
 </body>
 </html>

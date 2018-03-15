@@ -8,9 +8,8 @@
     });
 
     function getRandomChuckNorrisJoke(callback) {
-        fetch('https://api.icndb.com/jokes/random').then(response => {
-            return response.json();
-        }).then(jokeData => {
+        fetch('https://api.icndb.com/jokes/random').then(response => response.json())
+        .then(jokeData => {
             let jokeHtmlElement;
             let jokeContainer;
 

@@ -97,3 +97,21 @@ footer li {
 .chuck-norris-joke {
 	line-height: 1.6;
 }
+
+.modal.fade{
+	opacity:1;
+}
+
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0);
+	-moz-transform: translate(0);
+	transform: translate(0);
+}
+
+.btn, .modal-content {
+	border-radius: 0;
+}
+
+.btn-primary {
+	background-color: #2ecc71;
+}

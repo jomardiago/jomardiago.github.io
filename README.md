@@ -1,4 +1,4 @@
 # jomardiago.github.io
-Personal developer information Page.
+Personal developer information page.
 
-Just a static developer information page which can download my personal cv.
+Just a static developer information page which can download my personal CV.

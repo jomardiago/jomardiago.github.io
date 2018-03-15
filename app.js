@@ -28,8 +28,8 @@
         });
     };
 
-    getRandomChuckNorrisJoke(() => { $('#chucks-modal').modal('show'); });
+    getRandomChuckNorrisJoke(() => $('#chucks-modal').modal('show'));
     document.querySelector('.another-one').addEventListener('click', () => { 
-        getRandomChuckNorrisJoke(() => { $('#chucks-modal').modal('show'); });
+        getRandomChuckNorrisJoke(() => $('#chucks-modal').modal('show'));
     });
 })();

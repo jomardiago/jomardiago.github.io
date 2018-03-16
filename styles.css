@@ -62,7 +62,8 @@ body {
 }
 
 footer {
-	padding: 40px 0px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 footer li {
@@ -74,8 +75,7 @@ footer li {
 }
 
 .social-container {
-	float: right;
-	padding-top: 25px;
+	padding-top: 0px;
 }
 
 .fa-google-plus-square {

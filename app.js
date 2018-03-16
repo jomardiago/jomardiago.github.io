@@ -1,4 +1,6 @@
 (function() {
+    const weather = new Weather();
+
     $('#chucks-modal').on('show.bs.modal', function (e) {
         $('.modal .modal-dialog').attr('class', 'modal-dialog bounceIn animated');
     });
@@ -30,5 +32,20 @@
     getRandomChuckNorrisJoke(() => $('#chucks-modal').modal('show'));
     document.querySelector('.another-one').addEventListener('click', () => { 
         getRandomChuckNorrisJoke(() => $('#chucks-modal').modal('show'));
+    });
+
+    weather.getWeather().then(weatherData => {
+        document.querySelector('#w-location').textContent = weatherData.display_location.full;
+        document.querySelector('#w-desc').textContent = weatherData.weather;
+        document.querySelector('#w-string').textContent = weatherData.temperature_string;
+        document.querySelector('#w-icon').setAttribute('src', weatherData.icon_url);
+        document.querySelector('#w-humidity').textContent = `Relative Humidity: ${weatherData.relative_humidity}`;
+        document.querySelector('#w-dewpoint').textContent = `Feels Like: ${weatherData.feelslike_string}`;
+        document.querySelector('#w-feels-like').textContent = `Dew Point: ${weatherData.dewpoint_string}`;
+        document.querySelector('#w-wind').textContent= `Wind: ${weatherData.wind_string}`;
+    }).catch(err => {
+        console.log(err);
+        document.querySelector('.weather-forecast').remove();
+        
     });
 })();

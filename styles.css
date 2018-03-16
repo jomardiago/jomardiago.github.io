@@ -7,6 +7,14 @@ body {
 	background-color: #F6F6F6;
 }
 
+#w-location, #w-string {
+	color: #FFF;
+}
+
+.weather-info {
+	background-color: #27ae60;
+}
+
 .navbar {
 	background-color: #2ecc71;
 }
@@ -64,6 +72,7 @@ body {
 footer {
 	padding-top: 70px;
 	padding-bottom: 70px;
+	background-color: #E1E1E1;
 }
 
 footer li {

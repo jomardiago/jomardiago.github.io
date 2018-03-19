@@ -87,19 +87,7 @@ footer li {
 	padding-top: 0px;
 }
 
-.fa-google-plus-square {
-	color: #A9A9A9;
-}
-
-.fa-facebook-square {
-	color: #A9A9A9;
-}
-
-.fa-instagram {
-	color: #A9A9A9;
-}
-
-.fa-github-square {
+.fa-google-plus-square, .fa-facebook-square, .fa-instagram, .fa-github-square, .fa-linkedin-square {
 	color: #A9A9A9;
 }
 

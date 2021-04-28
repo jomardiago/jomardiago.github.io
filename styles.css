@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #F6F6F6;
+}
+
+#w-location, #w-string {
+	color: #FFF;
+}
+
+.weather-info {
+	background-color: #27ae60;
+}
+
+.navbar {
+	background-color: #2ecc71;
+}
+
+.navbar-brand {
+	color: #FFF;
+}
+
+.btn-dl-cv {
+	background-color: #2ecc71;
+	color: #FFF;
+	border: 3px solid #27ae60;
+	border-radius: 0;
+}
+
+.welcome-section {
+	padding-top: 90px;
+	padding-bottom: 20px;
+	background-color: #27ae60;
+	color: #FFF;
+}
+
+.welcome-image {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.welcome-heading-wrapper {
+	width: 80%;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.welcome-heading {
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.skills-sections {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #E1E1E1;
+}
+
+.skills-sections .card {
+	box-shadow: 10px 10px #D3D3D3;
+}
+
+.skills-sections .card h2 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+footer {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #E1E1E1;
+}
+
+footer li {
+	font-size: 32px;
+}
+
+.footer-info {
+	line-height: 5px;
+}
+
+.social-container {
+	padding-top: 0px;
+}
+
+.fa-google-plus-square, .fa-facebook-square, .fa-instagram, .fa-github-square, .fa-linkedin-square {
+	color: #A9A9A9;
+}
+
+.chuck-norris-joke {
+	line-height: 1.6;
+}
+
+.modal.fade{
+	opacity:1;
+}
+
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0);
+	-moz-transform: translate(0);
+	transform: translate(0);
+}
+
+.btn, .modal-content {
+	border-radius: 0;
+}
+
+.btn-primary {
+	background-color: #2ecc71;
+}

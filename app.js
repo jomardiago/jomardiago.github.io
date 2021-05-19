@@ -1,5 +1,5 @@
 (function() {
-    window.location.replace('https://jomardiago.github.io/josemaridiago/');
+    window.location.replace('https://jomardiago.github.io/josemaridiago/'); // redirecting to new page
     /* const weather = new Weather();
 
     $('#chucks-modal').on('show.bs.modal', function (e) {

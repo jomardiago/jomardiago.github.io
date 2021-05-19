@@ -1,5 +1,6 @@
 (function() {
-    const weather = new Weather();
+    window.location.replace('https://jomardiago.github.io/josemaridiago/');
+    /* const weather = new Weather();
 
     $('#chucks-modal').on('show.bs.modal', function (e) {
         $('.modal .modal-dialog').attr('class', 'modal-dialog bounceIn animated');
@@ -47,5 +48,5 @@
         console.log(err);
         document.querySelector('.weather-forecast').remove();
         
-    });
+    }); */
 })();
